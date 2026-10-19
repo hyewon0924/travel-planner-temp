@@ -10,7 +10,7 @@ export default function DayTabs({ days, activeDay, onSelectDay }) {
             <button
               key={d.day}
               onClick={() => onSelectDay(d.day)}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all whitespace-nowrap flex items-center gap-1.5 ${
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all whitespace-nowrap flex items-center gap-1.5 cursor-pointer ${
                 isSelected
                   ? 'bg-secondary-500 text-white shadow-md border border-secondary-400'
                   : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200'

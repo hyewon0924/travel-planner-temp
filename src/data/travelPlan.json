@@ -14,7 +14,81 @@
         "lat": 41.8992,
         "lng": 12.5015
       }
-    }
+    },
+    "hotels": [
+      {
+        "id": "hotel-rome",
+        "city": "로마",
+        "name": "우나 호텔 데코 로마",
+        "englishName": "UNA Hotels Decò Roma",
+        "checkIn": "10.26 14:00",
+        "checkOut": "10.29 12:00",
+        "nights": 3,
+        "pricePerNight": 383702,
+        "totalPrice": 1151105,
+        "cityTax": 78624,
+        "notes": "24시간 프론트",
+        "mapUrl": null,
+        "coords": {
+          "lat": 41.8992,
+          "lng": 12.5015
+        }
+      },
+      {
+        "id": "hotel-florence",
+        "city": "피렌체",
+        "name": "글로버스 어반 호텔",
+        "englishName": "Globus Urban Hotel",
+        "checkIn": "10.29 14:00",
+        "checkOut": "10.31 11:00",
+        "nights": 2,
+        "pricePerNight": 317736,
+        "totalPrice": 635472,
+        "cityTax": 48992,
+        "notes": "조식 포함",
+        "mapUrl": null,
+        "coords": {
+          "lat": 43.7761,
+          "lng": 11.252
+        }
+      },
+      {
+        "id": "hotel-venice",
+        "city": "베네치아",
+        "name": "더 베니스 타임즈 호텔",
+        "englishName": "The Venice Times Hotel",
+        "checkIn": "10.31 14:00",
+        "checkOut": "11.01 11:00",
+        "nights": 1,
+        "pricePerNight": 509390,
+        "totalPrice": 509390,
+        "cityTax": 15748,
+        "notes": "",
+        "mapUrl": null,
+        "coords": {
+          "lat": 45.4425,
+          "lng": 12.3235
+        }
+      },
+      {
+        "id": "hotel-barcelona",
+        "city": "바르셀로나",
+        "name": "호텔 리알토",
+        "englishName": "Hotel Rialto",
+        "checkIn": "11.01 15:00",
+        "checkOut": "11.04 12:00",
+        "nights": 3,
+        "pricePerNight": 217692,
+        "totalPrice": 653076,
+        "cityTax": 80825,
+        "notes": "24시간 프론트",
+        "mapUrl": null,
+        "coords": {
+          "lat": 41.3814,
+          "lng": 2.1764
+        }
+      }
+    ]
   },
   "days": [
     {
