@@ -9,21 +9,20 @@ export default function GoogleMapView({ days, activeDay, focusedItem, onSelectSp
   const mapInstanceRef = useRef(null)
   const layerGroupRef = useRef(null)
 
-  // 현재 Day의 유효한 지도 좌표 목록 필터링
+  // 현재 Day의 유효한 지도 좌표 목록 필터링 (목록 카드 번호와 1:1 일치)
   const validSpots = useMemo(() => {
     const list = []
     const targetDays = activeDay === 'all' ? days : days.filter((d) => d.day === activeDay)
 
     targetDays.forEach((d) => {
-      let seqNum = 1
-      d.schedules.forEach((s) => {
+      d.schedules.forEach((s, sIdx) => {
         const hasCoords = Boolean(s.coords && s.coords.lat && s.coords.lng)
         if (!s.hideOnMap && hasCoords) {
           list.push({
             ...s,
             day: d.day,
             dayDate: d.date,
-            seqNumber: seqNum++
+            seqNumber: sIdx + 1 // 목록 카드 번호(1, 2, 3...)와 1:1 일치
           })
         }
       })
@@ -34,8 +33,14 @@ export default function GoogleMapView({ days, activeDay, focusedItem, onSelectSp
   const [selectedSpot, setSelectedSpot] = useState(null)
 
   useEffect(() => {
-    if (focusedItem && focusedItem.coords && !focusedItem.hideOnMap) {
-      setSelectedSpot(focusedItem)
+    if (focusedItem) {
+      // seqNumber가 포함된 validSpot을 찾아 설정하여 하단 팝업에도 번호가 정상 표시되도록 처리
+      const match = validSpots.find((s) => s.id === focusedItem.id)
+      if (match) {
+        setSelectedSpot(match)
+      } else if (focusedItem.coords && !focusedItem.hideOnMap) {
+        setSelectedSpot(focusedItem)
+      }
     } else if (validSpots.length > 0) {
       setSelectedSpot(validSpots[0])
     } else {
