@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- 트렌디하고 화사한 로맨틱 코랄-로즈 그라데이션 -->
+    <linearGradient id="coralBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5876" />
+      <stop offset="100%" stop-color="#ea1854" />
+    </linearGradient>
+
+    <!-- 부드러운 화이트 심볼 그림자 -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#7a0022" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- 1. 앱 아이콘 배경 (iOS 표준 둥근 사각형) -->
+  <rect width="512" height="512" rx="120" fill="url(#coralBg)" />
+
+  <!-- 2. 중앙 단일 심볼 (하트 + 비행기 융합 미니멀 디자인) -->
+  <g filter="url(#softGlow)">
+    <!-- 1) 깔끔하고 통통한 사랑스러운 화이트 하트 -->
+    <path d="M 256 425 
+             C 240 410, 115 305, 85 220 
+             C 55 135, 125 75, 195 85 
+             C 225 90, 245 110, 256 128 
+             C 267 110, 287 90, 317 85 
+             C 387 75, 457 135, 427 220 
+             C 397 305, 272 410, 256 425 Z" 
+          fill="#ffffff" />
+
+    <!-- 2) 하트 중심에서 하늘로 날아오르는 네거티브 컷아웃 비행기 (배경색과 일치) -->
+    <!-- 우상향 45도로 비상하는 제트 비행기 실루엣 -->
+    <g transform="translate(256, 235) rotate(45)">
+      <!-- 비행기 동체 및 주날개 -->
+      <path d="M 0 -85 
+               C 5 -85, 9 -70, 9 -40 
+               L 80 15 
+               L 80 32 
+               L 12 12 
+               L 12 60 
+               L 35 80 
+               L 35 92 
+               L 0 85 
+               L -35 92 
+               L -35 80 
+               L -12 60 
+               L -12 12 
+               L -80 32 
+               L -80 15 
+               L -9 -40 
+               C -9 -70, -5 -85, 0 -85 Z" 
+            fill="url(#coralBg)" />
+    </g>
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { ChevronUp } from 'lucide-react'
 import Header from './components/Header'
 import DayTabs from './components/DayTabs'
@@ -7,9 +7,37 @@ import MapViewModal from './components/MapViewModal'
 import travelData from './data/travelPlan.json'
 
 const STORAGE_KEY_VISITED = 'sample_planner_visited_items'
+const STORAGE_KEY_ACTIVE_DAY = 'travel_planner_active_day'
+const STORAGE_KEY_SCROLL_POSITIONS = 'travel_planner_scroll_positions'
 
 export default function App() {
-  const [activeDay, setActiveDay] = useState(1)
+  const { tripInfo, days } = travelData
+
+  // 1. 마지막으로 보던 Day 복원 (기본값: 1)
+  const [activeDay, setActiveDay] = useState(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY_ACTIVE_DAY)
+      if (saved !== null) {
+        const parsed = isNaN(Number(saved)) ? saved : Number(saved)
+        if (parsed === 'all' || days?.some((d) => d.day === parsed)) {
+          return parsed
+        }
+      }
+    } catch {}
+    return 1
+  })
+
+  // 2. Day별 스크롤 위치 저장소 (메모리 및 localStorage 연동)
+  const scrollPositionsRef = useRef((() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY_SCROLL_POSITIONS)
+      return saved ? JSON.parse(saved) : {}
+    } catch {
+      return {}
+    }
+  })())
+
+  const isInitialMountRef = useRef(true)
   const [focusedItem, setFocusedItem] = useState(null)
   const [isMapModalOpen, setIsMapModalOpen] = useState(false)
   const [showTopBtn, setShowTopBtn] = useState(false)
@@ -38,31 +66,94 @@ export default function App() {
     )
   }
 
-  // 스크롤 감지 및 맨 위로 이동
+  // 3. 브라우저 스크롤 이벤트 감지 및 현재 Day 스크롤 위치 기록
   useEffect(() => {
     const handleScroll = () => {
-      setShowTopBtn(window.scrollY > 200)
+      const currentY = window.scrollY
+      setShowTopBtn(currentY > 200)
+
+      if (!isInitialMountRef.current) {
+        scrollPositionsRef.current[activeDay] = currentY
+      }
     }
+
     window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
+
+    // 앱 백그라운드 전환, 탭 닫기, 홈화면 나갈 때 상태 영구 저장
+    const handleSaveState = () => {
+      try {
+        localStorage.setItem(
+          STORAGE_KEY_SCROLL_POSITIONS,
+          JSON.stringify(scrollPositionsRef.current)
+        )
+        localStorage.setItem(STORAGE_KEY_ACTIVE_DAY, String(activeDay))
+      } catch (e) {
+        console.error('Failed to save scroll state:', e)
+      }
+    }
+
+    window.addEventListener('visibilitychange', handleSaveState)
+    window.addEventListener('pagehide', handleSaveState)
+    window.addEventListener('beforeunload', handleSaveState)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('visibilitychange', handleSaveState)
+      window.removeEventListener('pagehide', handleSaveState)
+      window.removeEventListener('beforeunload', handleSaveState)
+      handleSaveState()
+    }
+  }, [activeDay])
+
+  // 4. 앱 첫 실행 시: 브라우저 기본 스크롤 복원 억제 및 마지막 스크롤 위치로 복원
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual'
+    }
+
+    // DOM 렌더링 완료 후 저장된 스크롤 위치로 즉시 복원
+    const timer = setTimeout(() => {
+      const targetY = scrollPositionsRef.current[activeDay] || 0
+      if (targetY > 0) {
+        window.scrollTo({ top: targetY, behavior: 'instant' })
+      }
+      isInitialMountRef.current = false
+    }, 80)
+
+    return () => clearTimeout(timer)
   }, [])
+
+  // 5. 사용자가 Day를 변경했을 때: 현재 위치 저장 후 새 Day의 스크롤 위치로 복원/이동
+  const handleSelectDay = (newDay) => {
+    if (newDay === activeDay) return
+
+    scrollPositionsRef.current[activeDay] = window.scrollY
+    try {
+      localStorage.setItem(
+        STORAGE_KEY_SCROLL_POSITIONS,
+        JSON.stringify(scrollPositionsRef.current)
+      )
+      localStorage.setItem(STORAGE_KEY_ACTIVE_DAY, String(newDay))
+    } catch {}
+
+    setActiveDay(newDay)
+
+    setTimeout(() => {
+      const savedPos = scrollPositionsRef.current[newDay] || 0
+      window.scrollTo({ top: savedPos, behavior: savedPos === 0 ? 'smooth' : 'instant' })
+    }, 50)
+  }
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
+    scrollPositionsRef.current[activeDay] = 0
   }
-
-  // Day 변경 시 최상단으로 스크롤
-  useEffect(() => {
-    scrollToTop()
-  }, [activeDay])
 
   // 카드에서 지도 아이콘 클릭 시 해당 스팟을 포커스하며 모달 오픈
   const handleFocusOnMap = (item) => {
     setFocusedItem(item)
     setIsMapModalOpen(true)
   }
-
-  const { tripInfo, days } = travelData
 
   return (
     <div
@@ -87,7 +178,7 @@ export default function App() {
         <DayTabs
           days={days || []}
           activeDay={activeDay}
-          onSelectDay={setActiveDay}
+          onSelectDay={handleSelectDay}
         />
       </div>
 
