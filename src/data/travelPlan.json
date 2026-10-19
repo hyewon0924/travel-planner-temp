@@ -1,0 +1,1538 @@
+{
+  "tripInfo": {
+    "title": "신혼여행",
+    "destination": "이탈리아(로마·피렌체·베네치아) & 스페인(바르셀로나)",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-05",
+    "currency": "EUR/KRW",
+    "currencySymbol": "€",
+    "totalDays": 11,
+    "hotel": {
+      "name": "우나 호텔 데코 로마",
+      "station": "로마 테르미니역",
+      "coords": {
+        "lat": 41.8992,
+        "lng": 12.5015
+      }
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "10.26(월)",
+      "fullDate": "2026-10-26",
+      "title": "Day 1 10/26(월)",
+      "city": "로마",
+      "schedules": [
+        {
+          "id": "d1-1",
+          "time": "12:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "인천공항 도착",
+          "location": "인천국제공항 제2여객터미널",
+          "mapUrl": null,
+          "memo": "2터미널 도착",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 37.4692,
+            "lng": 126.4505
+          },
+          "hideOnMap": true
+        },
+        {
+          "id": "d1-2",
+          "time": "14:00",
+          "timePeriod": "오후",
+          "duration": "13시간 30분",
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "인천 → 레오나르도다빈치",
+          "location": "인천국제공항 ➔ 로마 레오나르도다빈치 공항",
+          "mapUrl": null,
+          "memo": "대한항공 KE0931 \n예약번호:GD71MZ \n좌석번호 : 040H / 040J",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 37.4602,
+            "lng": 126.4407
+          },
+          "hideOnMap": true
+        },
+        {
+          "id": "d1-3",
+          "time": "19:35",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "레오나르도다빈치 공항 도착",
+          "location": null,
+          "mapUrl": null,
+          "memo": "3터미널 도착",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.7999,
+            "lng": 12.2462
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d1-4",
+          "time": "20:30",
+          "timePeriod": "오후",
+          "duration": "40분",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "공항 → 테르미니역 이동",
+          "location": "피우미치노 공항역 ➔ 로마 테르미니역",
+          "mapUrl": null,
+          "memo": "레오나르도 익스프레스(예매 후 이동)",
+          "links": [
+            {
+              "label": "레오나르도 익스프레스 발권 방법",
+              "url": "https://blog.naver.com/3ksj0417/224383351198"
+            }
+          ],
+          "cost": "€14",
+          "coords": {
+            "lat": 41.9014,
+            "lng": 12.5008
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d1-5",
+          "time": "21:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소 체크인",
+          "location": null,
+          "mapUrl": "https://maps.app.goo.gl/dyNP6LxhskGGYRFF6",
+          "memo": "우나 호텔 데코 로마 UNA Hotels Decò Roma (도보 이동)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8992,
+            "lng": 12.5015
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d1-6",
+          "time": "21:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "DA ROMEO (저녁)",
+          "location": "Via Sforza, Roma",
+          "mapUrl": "https://maps.app.goo.gl/Jfb3ou5XA76gqncR6",
+          "memo": "구글맵 한국인 리뷰多 / 해산물 파스타·리조또 추천",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8974,
+            "lng": 12.4988
+          },
+          "hideOnMap": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "10.27(화)",
+      "fullDate": "2026-10-27",
+      "title": "Day 2 10/27(화)",
+      "city": "로마",
+      "schedules": [
+        {
+          "id": "d2-1",
+          "time": "09:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소",
+          "location": "우나 호텔 데코 로마 UNA Hotels Decò Roma",
+          "mapUrl": "https://maps.app.goo.gl/dyNP6LxhskGGYRFF6",
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8992,
+            "lng": 12.5015
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-2",
+          "time": "09:30",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "포로 로마노",
+          "location": "Via della Salara Vecchia, 5/6, Roma",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8925,
+            "lng": 12.4853
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-3",
+          "time": "13:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "Iari The Vino (점심)",
+          "location": "Via dei Santi Quattro, 38, Roma",
+          "mapUrl": "https://maps.app.goo.gl/SyBvnfZ3SBdembco9",
+          "memo": "이아리 더 비노 - 피스타치오 양갈비 / 감베로니 / 라자냐 추천 (예약가능)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8887,
+            "lng": 12.4996
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-4",
+          "time": "14:15",
+          "timePeriod": "오후",
+          "duration": "75분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "콜로세움",
+          "location": "Piazza del Colosseo, 1, Roma",
+          "mapUrl": null,
+          "memo": "클룩 - 로마 콜로세움 & 포로 로마노 & 팔라티노 언덕 입장권 (통합권) (티켓구매완료)",
+          "links": [],
+          "cost": "₩50,000",
+          "coords": {
+            "lat": 41.8902,
+            "lng": 12.4922
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-5",
+          "time": "15:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "팔라티노 언덕",
+          "location": "Via di San Gregorio, 30, Roma",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8893,
+            "lng": 12.4875
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-6",
+          "time": "16:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "진실의입",
+          "location": "Piazza Bocca della Verità, 18, Roma",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8882,
+            "lng": 12.4815
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d2-7",
+          "time": "18:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "10.28(수)",
+      "fullDate": "2026-10-28",
+      "title": "Day 3 10/28(화)",
+      "city": "로마",
+      "schedules": [
+        {
+          "id": "d3-1",
+          "time": "08:30",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "cafe",
+          "categoryLabel": "카페",
+          "title": "Regoli Pasticceria (아침)",
+          "location": "Via dello Statuto, 60, Roma",
+          "mapUrl": "https://maps.app.goo.gl/tNy2odh4W2aQRSyH9",
+          "memo": "레골리 파스티체리아 - 마리또쪼, 산딸기 타르트 유명 로컬베이커리 (파브리 추천)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8953,
+            "lng": 12.5028
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-2",
+          "time": "09:00",
+          "timePeriod": "오전",
+          "duration": "30분",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "바티칸 미술관 이동",
+          "location": "Termini 역 → Ottaviano역 (지하철)",
+          "mapUrl": null,
+          "memo": null,
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.9088,
+            "lng": 12.4573
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-3",
+          "time": "09:30",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "바티칸 미술관 관람",
+          "location": "Viale Vaticano, Roma",
+          "mapUrl": null,
+          "memo": "마이리얼트립 - 패스트트랙 (티켓구매완료)",
+          "links": [],
+          "cost": "₩60,000",
+          "coords": {
+            "lat": 41.9067,
+            "lng": 12.4534
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-4",
+          "time": "11:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "시스티나 대성당",
+          "location": "Cappella Sistina, Vatican City",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.9029,
+            "lng": 12.4545
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-5",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        },
+        {
+          "id": "d3-6",
+          "time": "14:00",
+          "timePeriod": "오후",
+          "duration": "1시간 30분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "판테온",
+          "location": "Piazza della Rotonda, Roma",
+          "mapUrl": null,
+          "memo": "관람",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8986,
+            "lng": 12.4769
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-7",
+          "time": "15:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "나보나광장",
+          "location": "Piazza Navona, Roma",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8992,
+            "lng": 12.4731
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-8",
+          "time": "17:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "트레비분수",
+          "location": "Fontana di Trevi, Piazza di Trevi, Roma",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.9009,
+            "lng": 12.4833
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-9",
+          "time": "18:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "성천사의 다리",
+          "location": "Ponte Sant'Angelo, Roma",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.902,
+            "lng": 12.4664
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d3-10",
+          "time": "19:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "LUCIANO Cucina Italiana (저녁)",
+          "location": "Piazza del Pellegrino, 19, Roma",
+          "mapUrl": "https://maps.app.goo.gl/mBpiYfkZjRDcihan8",
+          "memo": "나폴리 맛피아 추천 / 까르보나라&아마트리치아나 추천",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8943,
+            "lng": 12.4737
+          },
+          "hideOnMap": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "10.29(목)",
+      "fullDate": "2026-10-29",
+      "title": "Day 4 10/29(목)",
+      "city": "로마-피렌체",
+      "schedules": [
+        {
+          "id": "d4-1",
+          "time": "10:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소 체크아웃",
+          "location": "우나 호텔 데코 로마 UNA Hotels Decò Roma",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.8992,
+            "lng": 12.5015
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d4-2",
+          "time": "12:00",
+          "timePeriod": "오후",
+          "duration": "2시간",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "피렌체 숙소로 이동",
+          "location": null,
+          "mapUrl": null,
+          "memo": "Termini 역 → Firenze Santa Maria Novella 역 도착 (고속열차)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7765,
+            "lng": 11.248
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d4-3",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": null,
+          "mapUrl": null,
+          "memo": "티본스테이크 유명",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7745,
+            "lng": 11.2525
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d4-4",
+          "time": "14:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "피렌체 숙소 체크인",
+          "location": "글로버스 어반 호텔 Globus Urban Hotel",
+          "mapUrl": "https://maps.app.goo.gl/9uQY9LBY941KLcpJ8",
+          "memo": "글로버스 어반 호텔 Globus Urban Hotel (도보 이동)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7761,
+            "lng": 11.252
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d4-5",
+          "time": "16:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "우피치 미술관 관람",
+          "location": "Piazzale degli Uffizi, 6, Firenze",
+          "mapUrl": "https://maps.app.goo.gl/2ZaEfDbKjtawCiHu5",
+          "memo": "18:30 미술관 종료 (티켓구매완료)",
+          "links": [],
+          "cost": "€20",
+          "coords": {
+            "lat": 43.7678,
+            "lng": 11.2553
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d4-6",
+          "time": "19:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "10.30(금)",
+      "fullDate": "2026-10-30",
+      "title": "Day 5 10/30(금)",
+      "city": "피렌체",
+      "schedules": [
+        {
+          "id": "d5-1",
+          "time": "08:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "조식",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        },
+        {
+          "id": "d5-2",
+          "time": "08:30",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "피렌체 중앙시장",
+          "location": "Piazza del Mercato Centrale, Firenze",
+          "mapUrl": null,
+          "memo": "곱창버거 추천",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7766,
+            "lng": 11.2532
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-3",
+          "time": "09:30",
+          "timePeriod": "오전",
+          "duration": "30분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "두오모 광장",
+          "location": "Piazza del Duomo, Firenze",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7731,
+            "lng": 11.256
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-4",
+          "time": "10:00",
+          "timePeriod": "오전",
+          "duration": "30분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "레푸블리카 광장",
+          "location": "Piazza della Repubblica, Firenze",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7715,
+            "lng": 11.2541
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-5",
+          "time": "10:30",
+          "timePeriod": "오전",
+          "duration": "30분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "시뇨리아 광장",
+          "location": "Piazza della Signoria, Firenze",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7696,
+            "lng": 11.256
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-6",
+          "time": "12:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        },
+        {
+          "id": "d5-7",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "베키오 다리",
+          "location": "Ponte Vecchio, Firenze",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.768,
+            "lng": 11.2531
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-8",
+          "time": "13:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "산타 트리니타 다리",
+          "location": "Ponte Santa Trinita, Firenze",
+          "mapUrl": null,
+          "memo": "도보 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7691,
+            "lng": 11.2505
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-9",
+          "time": "17:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "미켈란젤로 광장",
+          "location": "Piazzale Michelangelo, Firenze",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7629,
+            "lng": 11.265
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d5-10",
+          "time": "18:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "10.31(토)",
+      "fullDate": "2026-10-31",
+      "title": "Day 6 10/31(토)",
+      "city": "피렌체-베네치아",
+      "schedules": [
+        {
+          "id": "d6-1",
+          "time": "08:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "조식",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        },
+        {
+          "id": "d6-2",
+          "time": "10:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소 체크아웃",
+          "location": "글로버스 어반 호텔 Globus Urban Hotel",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 43.7761,
+            "lng": 11.252
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-3",
+          "time": "12:30",
+          "timePeriod": "오후",
+          "duration": "2시간 30분",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "베네치아 숙소로 이동",
+          "location": null,
+          "mapUrl": null,
+          "memo": "Firenze Santa Maria Novella 역 → Venezia Santa Lucia 역 (고속열차)",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4411,
+            "lng": 12.3211
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-4",
+          "time": "13:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": "베네치아 시내",
+          "mapUrl": null,
+          "memo": "먹물 스파게티 유명",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4385,
+            "lng": 12.328
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-5",
+          "time": "14:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "베네치아 숙소 체크인",
+          "location": "더 베니스 타임즈 호텔 The Venice Times Hotel",
+          "mapUrl": "https://maps.app.goo.gl/tFWRct7PwLmUg61u8",
+          "memo": null,
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4425,
+            "lng": 12.3235
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-6",
+          "time": "15:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "산마르코 광장 - 대성당",
+          "location": "Piazza San Marco, Venezia",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4342,
+            "lng": 12.3389
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-7",
+          "time": "16:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "cafe",
+          "categoryLabel": "카페",
+          "title": "I Tre Mercanti (간식)",
+          "location": "Calle al Ponte de la Guerra, 5364, Venezia",
+          "mapUrl": null,
+          "memo": "이 트레 메르칸티 : 피스타치오 티라미수 강추",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4361,
+            "lng": 12.3386
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d6-8",
+          "time": "18:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "11.01(일)",
+      "fullDate": "2026-11-01",
+      "title": "Day 7 11/01(일)",
+      "city": "베네치아-바르셀로나",
+      "schedules": [
+        {
+          "id": "d7-1",
+          "time": "11:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소 체크아웃",
+          "location": "더 베니스 타임즈 호텔 The Venice Times Hotel",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.4425,
+            "lng": 12.3235
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d7-2",
+          "time": "12:00",
+          "timePeriod": "오전",
+          "duration": "1시간",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "베네치아 마르코폴로 공항 도착",
+          "location": "Aeroporto di Venezia-Tessera (VCE)",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.5053,
+            "lng": 12.3519
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d7-3",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": "베네치아 마르코폴로 공항",
+          "mapUrl": null,
+          "memo": "공항 도착 후 식사",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.5053,
+            "lng": 12.3519
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d7-4",
+          "time": "14:15",
+          "timePeriod": "오후",
+          "duration": "2시간",
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "베네치아 → 바르셀로나",
+          "location": "베네치아 마르코폴로 공항 ➔ 바르셀로나 엘프라트 공항",
+          "mapUrl": null,
+          "memo": "부엘링항공 편도",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 45.5053,
+            "lng": 12.3519
+          },
+          "hideOnMap": true
+        },
+        {
+          "id": "d7-5",
+          "time": "16:05",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "바르셀로나 공항 도착",
+          "location": "바르셀로나 엘프라트 공항 T1",
+          "mapUrl": null,
+          "memo": "바르셀로나 엘프라트 공항 T1",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.2891,
+            "lng": 2.0735
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d7-6",
+          "time": "17:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "바르셀로나 숙소 체크인",
+          "location": "호텔 리알토 Hotel Rialto",
+          "mapUrl": null,
+          "memo": "호텔 리알토 Hotel Rialto",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3814,
+            "lng": 2.1764
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d7-7",
+          "time": "19:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "11.02(월)",
+      "fullDate": "2026-11-02",
+      "title": "Day 8 11/02(월)",
+      "city": "바르셀로나",
+      "schedules": [
+        {
+          "id": "d8-1",
+          "time": "10:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "고딕지구 - 보른지구",
+          "location": "Barri Gòtic & El Born, Barcelona",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3833,
+            "lng": 2.1783
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-2",
+          "time": "11:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "바르셀로나 대성당",
+          "location": "Pla de la Seu, s/n, Barcelona",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.384,
+            "lng": 2.1762
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-3",
+          "time": "12:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "Ciudad Condal (점심)",
+          "location": "Rambla de Catalunya, 18, Barcelona",
+          "mapUrl": "https://maps.app.goo.gl/nEHFbqaSey13yM8L9",
+          "memo": "유명 맛집. 현지인·관광객 모두 많이 찾는 곳. 꿀대구 타파스 강추.",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3888,
+            "lng": 2.1672
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-4",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "cafe",
+          "categoryLabel": "카페",
+          "title": "99 cheesecake",
+          "location": "Carrer de Ferran, Barcelona",
+          "mapUrl": "https://maps.app.goo.gl/goKUskzXHtmZsAwQ6",
+          "memo": "1유로 치즈케이크. 웨이팅 가능성.",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3812,
+            "lng": 2.176
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-5",
+          "time": "14:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "cafe",
+          "categoryLabel": "카페",
+          "title": "호프만 베이커리",
+          "location": null,
+          "mapUrl": "https://maps.app.goo.gl/Sr552EyGXGAB7koo7",
+          "memo": "유명 빵집. 마스카포네 크로와상 강추.",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3855,
+            "lng": 2.1824
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-6",
+          "time": "16:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "바르셀로네타 해변",
+          "location": "Platja de la Barceloneta, Barcelona",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3784,
+            "lng": 2.1925
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d8-7",
+          "time": "18:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "11.03(화)",
+      "fullDate": "2026-11-03",
+      "title": "Day 9 11/03(화)",
+      "city": "바르셀로나",
+      "schedules": [
+        {
+          "id": "d9-1",
+          "time": "07:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "까사 바뜨요 이동",
+          "location": "Passeig de Gràcia, Barcelona",
+          "mapUrl": null,
+          "memo": "반일투어 장소 이동",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3916,
+            "lng": 2.1649
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-2",
+          "time": "08:20",
+          "timePeriod": "오전",
+          "duration": "1시간",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "까사 바뜨요",
+          "location": "Passeig de Gràcia, 43, Barcelona",
+          "mapUrl": null,
+          "memo": "가우디 반일투어",
+          "links": [
+            {
+              "label": "마이리얼트립 투어 예약 링크",
+              "url": "https://experiences.myrealtrip.com/products/3430505"
+            }
+          ],
+          "cost": "₩53,000",
+          "coords": {
+            "lat": 41.3916,
+            "lng": 2.1649
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-3",
+          "time": "09:20",
+          "timePeriod": "오전",
+          "duration": "1시간",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "까사밀라",
+          "location": "Passeig de Gràcia, 92, Barcelona",
+          "mapUrl": null,
+          "memo": "가우디 반일투어",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3953,
+            "lng": 2.1619
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-4",
+          "time": "10:20",
+          "timePeriod": "오전",
+          "duration": "1시간 30분",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "구엘공원",
+          "location": "Park Güell, Barcelona",
+          "mapUrl": null,
+          "memo": "가우디 반일투어",
+          "links": [],
+          "cost": "€18 (현장)",
+          "coords": {
+            "lat": 41.4145,
+            "lng": 2.1527
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-5",
+          "time": "12:00",
+          "timePeriod": "오후",
+          "duration": "1시간",
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "사그라다 파밀리아 외부",
+          "location": "Basílica de la Sagrada Família, Barcelona",
+          "mapUrl": null,
+          "memo": "가우디 반일투어",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.4036,
+            "lng": 2.1744
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-6",
+          "time": "14:15",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "sightseeing",
+          "categoryLabel": "관광",
+          "title": "사그라다 파밀리아 내부",
+          "location": "Basílica de la Sagrada Família, Barcelona",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": "€26",
+          "coords": {
+            "lat": 41.4036,
+            "lng": 2.1744
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-7",
+          "time": "20:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "Madre Taberna Moderna (저녁)",
+          "location": "Carrer de Casp, 60, Barcelona",
+          "mapUrl": "https://maps.app.goo.gl/CysZAFcQCX3XJmw5A",
+          "memo": "타파스 레스토랑 / 도보 2분 / 비프타르타르, 타파스, 빠에야류 추천",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3934,
+            "lng": 2.1748
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d9-8",
+          "time": "21:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "activity",
+          "categoryLabel": "액티비티",
+          "title": "캄노우 축구경기 관람",
+          "location": "Spotify Camp Nou, Barcelona",
+          "mapUrl": null,
+          "memo": "챔피언스 리그 관람 / 바르셀로나 vs 아스톤 빌라",
+          "links": [],
+          "cost": "₩800,000",
+          "coords": {
+            "lat": 41.3809,
+            "lng": 2.1228
+          },
+          "hideOnMap": false
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "11.04(수)",
+      "fullDate": "2026-11-04",
+      "title": "Day 10 11/04(수)",
+      "city": "바르셀로나",
+      "schedules": [
+        {
+          "id": "d10-1",
+          "time": "12:00",
+          "timePeriod": "오전",
+          "duration": null,
+          "category": "hotel",
+          "categoryLabel": "숙소",
+          "title": "숙소 체크아웃",
+          "location": "호텔 리알토 Hotel Rialto",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.3814,
+            "lng": 2.1764
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d10-2",
+          "time": "13:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "점심",
+          "location": "",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        },
+        {
+          "id": "d10-3",
+          "time": "17:30",
+          "timePeriod": "오후",
+          "duration": "1시간",
+          "category": "transit",
+          "categoryLabel": "교통",
+          "title": "공항 이동",
+          "location": "바르셀로나 시내 ➔ 엘프라트 공항",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.2891,
+            "lng": 2.0735
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d10-4",
+          "time": "18:30",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "바르셀로나 공항 도착",
+          "location": "바르셀로나 엘프라트 공항 T1",
+          "mapUrl": null,
+          "memo": "바르셀로나 엘프라트 공항 T1",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.2891,
+            "lng": 2.0735
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d10-5",
+          "time": "19:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "food",
+          "categoryLabel": "식당",
+          "title": "저녁",
+          "location": "바르셀로나 엘프라트 공항 T1",
+          "mapUrl": null,
+          "memo": "공항 도착 후 식사",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 41.2891,
+            "lng": 2.0735
+          },
+          "hideOnMap": false
+        },
+        {
+          "id": "d10-6",
+          "time": "20:40",
+          "timePeriod": "오후",
+          "duration": "12시간 30분",
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "바르셀로나 → 인천",
+          "location": "바르셀로나 엘프라트 공항 ➔ 인천국제공항",
+          "mapUrl": null,
+          "memo": "아시아나항공",
+          "links": [],
+          "cost": null,
+          "coords": null,
+          "hideOnMap": true
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "11.05(목)",
+      "fullDate": "2026-11-05",
+      "title": "Day 11 11/05(목)",
+      "city": "인천",
+      "schedules": [
+        {
+          "id": "d11-1",
+          "time": "17:00",
+          "timePeriod": "오후",
+          "duration": null,
+          "category": "flight",
+          "categoryLabel": "항공",
+          "title": "인천 도착",
+          "location": "인천국제공항",
+          "mapUrl": null,
+          "memo": "",
+          "links": [],
+          "cost": null,
+          "coords": {
+            "lat": 37.4602,
+            "lng": 126.4407
+          },
+          "hideOnMap": false
+        }
+      ]
+    }
+  ]
+}
