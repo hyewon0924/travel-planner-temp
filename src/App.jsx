@@ -178,7 +178,7 @@ export default function App() {
   return (
     <div
       className="min-h-screen bg-slate-200/80 flex flex-col font-sans selection:bg-secondary-500 selection:text-white"
-      style={{ paddingBottom: 'calc(4rem + env(safe-area-inset-bottom, 0px))' }}
+      style={{ paddingBottom: 'calc(5rem + env(safe-area-inset-bottom, 0px))' }}
     >
       {/* 1. 상단 스티키 헤더 & Day 탭 (동선 탭일 때만 DayTabs 표시) */}
       <div className="sticky top-0 z-30 shadow-xs">
@@ -232,11 +232,14 @@ export default function App() {
         onSelectSpot={(spot) => setFocusedItem(spot)}
       />
 
-      {/* 5. 맨 위로 가기 플로팅 버튼 (바텀 탭 위로 배치) */}
+      {/* 5. 맨 위로 가기 플로팅 버튼 (홈 화면 PWA safe-area-inset 대응으로 바텀 탭 위에 항상 노출) */}
       {showTopBtn && (
         <button
           onClick={scrollToTop}
-          className="fixed right-4 bottom-16 z-30 w-10 h-10 rounded-full bg-slate-900 text-white shadow-xl flex items-center justify-center transition-all hover:bg-slate-800 active:scale-95 border border-slate-700"
+          className="fixed right-4 z-30 w-10 h-10 rounded-full bg-slate-900 text-white shadow-xl flex items-center justify-center transition-all hover:bg-slate-800 active:scale-95 border border-slate-700"
+          style={{
+            bottom: 'calc(4.5rem + env(safe-area-inset-bottom, 0px))'
+          }}
           aria-label="맨 위로 가기"
         >
           <ChevronUp className="w-5 h-5" />
